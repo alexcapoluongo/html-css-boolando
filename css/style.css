@@ -47,8 +47,22 @@ html{
     text-align: left;
 }
 
-.image{
+.image-box{
     position:relative;
+}
+
+/* HOVER EFFECT */
+
+.model:hover :last-child{
+    display:none;
+}
+
+.model :first-child{
+    display:none;
+}
+
+.model:hover :first-child{
+    display:inline-block;
 }
 
 /* FINE LAYOUT */
@@ -84,7 +98,8 @@ html{
 
 .label-sostenibilita{
         position: absolute;
-        bottom:5%;
+        /* display:inline-block; */
+        bottom:5%; 
         left:17%;
         width:25%;
         background-color: #4ba586;
