@@ -26,6 +26,7 @@ html{
 }
 
 .square{
+    /* position:relative; */
     display:inline-block;
     width:calc((100%/3) - 30px);
     height:50%;
@@ -46,6 +47,10 @@ html{
     text-align: left;
 }
 
+.image{
+    position:relative;
+}
+
 /* FINE LAYOUT */
 
 /* TEXT DECORATION */
@@ -63,4 +68,28 @@ html{
 
 .prezzo-intero{
     text-decoration:line-through;
+}
+
+/* LABELS DECORATION */
+.label-sconti{
+    position: absolute;
+    bottom:5%;
+    width:15%;
+    background-color: #ef3763;
+    color:white;
+    font-weight:bold;
+    font-size:.7em;
+    padding:5px;
+}
+
+.label-sostenibilita{
+        position: absolute;
+        bottom:5%;
+        left:17%;
+        width:25%;
+        background-color: #4ba586;
+        color:white;
+        font-weight:bold;
+        font-size:.7em;
+        padding:5px;
 }
