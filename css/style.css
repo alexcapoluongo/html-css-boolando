@@ -16,12 +16,12 @@ html{
 .contenitore{ 
     width:80%;
     margin:0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .row{
     max-width: 1800px;
-    border: 2px solid firebrick;
+    /* border: 2px solid firebrick; */
     text-align:center;
 }
 
@@ -42,6 +42,7 @@ html{
     display:inline-block;
     width:100%;
     margin-top:5px;
+    margin-bottom:40px;
     text-align: left;
 }
 
