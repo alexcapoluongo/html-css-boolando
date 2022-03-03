@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* LAYOUT */
 .contenitore{ 
     width:80%;
     margin:0 auto;
@@ -13,7 +20,6 @@
 }
 
 .row{
-    /* position:relative; */
     max-width: 1800px;
     border: 2px solid firebrick;
     text-align:center;
@@ -24,30 +30,36 @@
     width:calc((100%/3) - 30px);
     height:50%;
     margin:10px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     vertical-align: top;
 }
 
-
 .square img{
     width:100%;
-    /* height:100%; */
 }
 
-/* .testo{
-    position:absolute;
-    left:0;
-    bottom:0;
-    display:inline-block;
-    width:calc((100%/3) - 30px);
-    border: 2px solid black;
-    text-align: left;
-    height:5em;
-    margin-left: 10px;
-} */
 .testo{
     display:inline-block;
     width:100%;
-    /* height:30%; */
-    border: 2px solid green;
+    margin-top:5px;
+    text-align: left;
+}
+
+/* FINE LAYOUT */
+
+/* TEXT DECORATION */
+
+
+.modello-outfit{
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.prezzo-scontato{
+    font-weight:bold;
+    color:red;
+}
+
+.prezzo-intero{
+    text-decoration:line-through;
 }
