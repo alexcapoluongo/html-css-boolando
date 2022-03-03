@@ -16,22 +16,17 @@ html{
 .contenitore{ 
     width:80%;
     margin:0 auto;
-    /* border: 2px solid blue; */
 }
 
 .row{
     max-width: 1800px;
-    /* border: 2px solid firebrick; */
-    text-align:center;
 }
 
 .square{
-    /* position:relative; */
     display:inline-block;
     width:calc((100%/3) - 30px);
     height:50%;
     margin:10px;
-    /* border: 2px solid green; */
     vertical-align: top;
 }
 
@@ -91,28 +86,36 @@ html{
 }
 
 /* LABELS DECORATION */
-.label-sconti{
-    position: absolute;
-    bottom:5%;
-    width:15%;
-    background-color: #ef3763;
+
+.labels{
     color:white;
     font-weight:bold;
     font-size:.7em;
     padding:5px;
+    display:inline;
+}
+
+.label-sconti{
+    width:50px;
+    background-color: #ef3763;
 }
 
 .label-sostenibilita{
-        position: absolute;
-        /* display:inline-block; */
-        bottom:5%; 
-        left:17%;
-        width:25%;
-        background-color: #4ba586;
-        color:white;
-        font-weight:bold;
-        font-size:.7em;
-        padding:5px;
+    left:17%;
+    width:100px;
+    background-color: #4ba586;
+}
+
+.label-sostenibilita-2{
+
+    width:100px;
+    background-color: #4ba586;
+}
+
+.etichette{
+    display:inline-block;
+    position:absolute;
+    bottom:5%; 
 }
 
 .label-like{
@@ -124,4 +127,6 @@ html{
     line-height: 35px;
     background-color:white;
     color:black;
+    text-align: center;
 }
+
