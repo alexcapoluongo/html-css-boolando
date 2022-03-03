@@ -51,7 +51,9 @@ html{
     position:relative;
 }
 
-/* HOVER EFFECT */
+/* HOVER EFFECTS */
+
+/* Hover Images */
 
 .model:hover :last-child{
     display:none;
@@ -65,7 +67,11 @@ html{
     display:inline-block;
 }
 
-/* FINE LAYOUT */
+/* Hover Likes */
+
+.label-like:hover{
+    color:red;
+}
 
 /* TEXT DECORATION */
 
@@ -107,4 +113,15 @@ html{
         font-weight:bold;
         font-size:.7em;
         padding:5px;
+}
+
+.label-like{
+    position:absolute;
+    top:5%;
+    right:0;
+    width:35px;
+    height:35px;
+    line-height: 35px;
+    background-color:white;
+    color:black;
 }
